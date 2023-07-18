@@ -1,0 +1,125 @@
+/*nav bar starts*/
+body{
+    font-family: 'Work Sans', sans-serif;
+    
+}
+/*nav{
+    background-color: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}*/
+header{
+    background-color: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    
+}
+   
+
+
+.nav-container{
+    min-height:50px;
+   display:flex;
+   align-items:center;
+   max-width:1400px;
+   margin:0 auto;
+}
+.logo-container{
+    height:50px;
+    display:flex;
+    width:300px;
+}
+.logo-container img{
+    
+    width:110px;
+    object-fit: cover;
+    margin-right:20px;
+}
+.logo-container .p{ 
+    margin-bottom:1000px;
+    color: #0B0223;
+}
+.gaming{
+    color:rgb(240, 75, 212);
+    margin-bottom:1000px;
+    color: #0B0223;
+    font-size: 20px;
+    
+
+}
+.nav-items-container{
+    width:50%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+/*.nav-items-container .a{
+    text-decoration: none;
+    font-size:20px;
+    color:blue;
+    
+}*/
+.a1{
+ margin-left:150px;
+ font-weight: 500;
+ font-size: 20px;
+ text-decoration: none;
+ 
+}
+.a2{
+margin-left:150px;
+ font-weight: 500;
+ font-size: 20px;
+ text-decoration: none;
+}
+.btn{
+    font-size: 20px;
+    margin-left: 200px;
+    object-fit:cover;
+    display: flex;
+   
+}
+.btn .btn-text{
+    padding:8px;
+}
+.btn .btn-icon{
+    gap:10px;
+    padding-top:5px;
+}
+.nav-items-container .btn{
+   border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10); ;
+    padding:10px;
+}
+.nav-items-container .btn-text{
+    display: flex;
+   align-content: center;
+}
+.nav-items-container .btn-icon{
+    display:flex;
+    text-align:center;
+}
+/*nav bar ends*/
+/*responsive layout*/
+@media screen and (max-width:425px){
+    
+    
+    .nav-container{
+        flex-direction:column;
+        width:100%;
+    }
+    .logo-container{
+        width:100%;
+    }
+    .nav-items-container{
+        
+        flex-direction: column;
+        text-align: center;
+        width:100%;
+        margin-top: 5px;
+        
+    }
+    
+    .nav-items-container .btn{
+        width:100%;
+        margin-left: 0px;
+    }
+}
