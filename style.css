@@ -1,16 +1,9 @@
-/*nav bar starts*/
-*{
-    border
-}
 
 body{
     font-family: 'Work Sans', sans-serif;
+    width:100%;
     
 }
-/*nav{
-    background-color: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-}*/
 header{
     background-color: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -55,26 +48,6 @@ margin-top:20px;
 .btn .btn-text{
     padding:8px;
 }
-.btn .btn-icon{
-    gap:10px;
-}
- 
-.nav-items-container .btn{
-   border-radius: 8px;
-    background: rgba(11, 2, 35, 0.10); ;
-    padding:10px;
-}
-.nav-items-container .btn-text{
-    display: flex;
-   align-content: center;
-}
-.nav-items-container .btn-icon{
-    display:flex;
-    text-align:center;
-}
-/*nav bar ends*/
-
-/*banner part*/
 section{
     margin-top:10px;
 }
@@ -86,7 +59,7 @@ section{
     
     background-color:#FFF; 
     width: 50vw;
-    height: 5927px;
+    height: 700px;
     background-image: url('./images/Group 14.png');
    background-repeat:no-repeat;
 }
@@ -191,4 +164,42 @@ font-size: 45px;
 .bttn:hover{
     background-color:rgb(151, 142, 126);
   
+}
+.footer{
+    height:500px;
+    margin-top:10px;
+        background-color: #773838; 
+        padding: 20px; 
+        text-align: center; 
+      
+}
+.footer .gaming{
+   font-size:30px; 
+}
+
+footer .unorder-list2{
+    display:flex;
+    margin-bottom:30px;
+    list-style: none;
+    padding-left:750px;
+}
+.list-1{
+    margin-right:15px;
+    font-size: 70px;
+}
+.list-2{
+    margin-right:20px;
+    font-size: 70px;
+}
+.list-3{
+    margin-left:20px;
+    font-size: 70px;
+}
+.list-4{
+    margin-left:20px;
+    font-size: 70px;
+}
+.list-5{
+    margin-left:20px;
+    font-size: 70px;
 }
