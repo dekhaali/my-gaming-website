@@ -18,7 +18,7 @@ header{
     
 }
 .navigation{
-    border:2px solid red;
+   
     width:100%;
     height:100px;
     display:grid;
@@ -142,6 +142,7 @@ font-size: 45px;
  .div1{
     margin-right:5px;
  }
+ 
 
 .div2{
     margin-right:5px;
@@ -169,5 +170,25 @@ font-size: 45px;
     margin-top:-10px;
     justify-content:center ;
 }
-/*main part ends*/
-/
+.iconic{
+     margin-top:170px; 
+     margin-left:380px;
+}
+.icon1{
+    margin-bottom:20px;
+}
+.icon2{
+    margin-left:80px;
+}
+.bttn{
+    background-color:white;
+    border-radius: 8px;
+    border:none;
+    color:black;
+    padding:12px 16px;
+    cursor:pointer;
+}
+.bttn:hover{
+    background-color:rgb(151, 142, 126);
+  
+}
