@@ -10,6 +10,7 @@ body{
 header{
     background-color: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    height:1000px;
     
 }
    
@@ -21,6 +22,7 @@ header{
    align-items:center;
    max-width:1400px;
    margin:0 auto;
+ 
 }
 .logo-container{
     height:50px;
@@ -48,7 +50,7 @@ header{
 .nav-items-container{
     width:50%;
     display:flex;
-    justify-content: space-between;
+   justify-content:space-between;
     align-items:center;
 }
 /*.nav-items-container .a{
@@ -73,8 +75,10 @@ margin-left:150px;
 .btn{
     font-size: 20px;
     margin-left: 200px;
-    object-fit:cover;
-    display: flex;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    
    
 }
 .btn .btn-text{
@@ -82,8 +86,8 @@ margin-left:150px;
 }
 .btn .btn-icon{
     gap:10px;
-    padding-top:5px;
 }
+ 
 .nav-items-container .btn{
    border-radius: 8px;
     background: rgba(11, 2, 35, 0.10); ;
@@ -123,14 +127,18 @@ margin-left:150px;
         margin-left: 0px;
     }
 }
-/*responsive layout for tab*/
-@media screen and ()
-
-
-
-
-
-
+/*responsive layout for tab
+@media screen and (min-width:426px) and (max-width:768px
+){
+    .logo-container img{
+        width:200px;
+        height:80px;
+        text-align:center;
+}
+.nav-container{
+    max-width:1400px;
+}
+}*/
 /*banner part*/
 section{
     margin-top:10px;
@@ -184,4 +192,49 @@ font-size: 45px;
     padding:10px 15px;
     background-color: #20c3e0;
     border-radius: 20px;
+}
+/*main part starts*/
+.main h2{
+    text-align:center;
+    font-size: 30px;
+}
+.main p{
+    text-align:center;
+    font-size: 15px;
+}
+.main span{
+    color:#633eb8;
+}
+ 
+.main-image{
+   
+   display:flex ;
+   justify-content:center;
+   
+}
+.div2{
+    margin-right:5px;
+}
+.div3{
+    margin-right:5px;
+}
+.position{
+    margin-left:150px;
+    
+}
+.principal{
+    position:relative;
+    margin-left:200px;
+    top:120px;
+    left:10px;
+
+}
+.auxilary{
+    position:absolute;
+    margin-left:680px;
+}
+.writing{
+    margin-left:1000px;
+    margin-top:-10px;
+    justify-content:center ;
 }
