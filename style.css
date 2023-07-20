@@ -35,23 +35,23 @@ margin-top:20px;
     margin-top:20px;
     grid-column:7/8;
     grid-row:2/3;
-    margin-right:150px;
+    margin-right:80px;
 }
 .developers{
     margin-top:20px;
     grid-column: 8/9;
     grid-row:2/4;
-    margin-right:150px;
+    margin-right:80px;
 }
 .buttonn{
     grid-column:10/-1;
     grid-row:2/3;
     margin-top:15px;
-    margin-right:30px;
+    margin-right:20px;
 }
 .btn{
     display:flex;
-  
+   
 }
 
 .btn .btn-text{
@@ -203,13 +203,17 @@ font-size: 45px;
     height:300px;
      margin-top:300px;
      margin-left:380px;
+     
+     
 }
 .icon1{
     margin-bottom:20px;
     margin-left: 50px;
+    
 }
 .icon2{
     margin-left:120px;
+    
 }
 .bttn{
     background-color:white;
@@ -221,6 +225,8 @@ font-size: 45px;
 }
 .bttn:hover{
     background-color:rgb(151, 142, 126);
+    border-radius: 30px;
+    padding:10px;
   
 }
 .footer{
