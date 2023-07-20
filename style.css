@@ -72,10 +72,10 @@ section{
     background-image: url('./images/Group 14.png');
    background-repeat:no-repeat;
 }
-.goat p{
+.goat .play{
     margin-top:25px;
     color: #0B0223;
-margin-left: 200px;
+margin-right:350px;
 font-size: 25px;
 font-weight: 600;
 text-transform: uppercase;
@@ -191,6 +191,13 @@ font-size: 45px;
     margin-left:1000px;
     margin-top:-10px;
     justify-content:center ;
+}
+.writing p{
+    margin-right:300px;
+}
+.writing h2 span{
+    color:#F948B2;
+    font-size: larger;
 }
 .iconic{
     height:300px;
