@@ -119,6 +119,7 @@ font-size: 45px;
     gap:3px;
     margin-left:150px;
 }
+
 .parts .videos{
     color:#d41acb;
 }
@@ -218,7 +219,7 @@ font-size: 45px;
 .footer{
     height:500px;
     margin-top:10px;
-        background-color: #773838; 
+        background-color: rgb(35, 54, 107);
         padding: 20px; 
         text-align: center; 
       
