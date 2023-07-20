@@ -51,6 +51,7 @@ margin-top:20px;
 }
 .btn{
     display:flex;
+  
 }
 
 .btn .btn-text{
@@ -79,7 +80,7 @@ font-size: 25px;
 font-weight: 600;
 text-transform: uppercase;
 }
-span{
+.span{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
 -webkit-background-clip: text;
@@ -96,7 +97,7 @@ font-size: 45px;
 .btn-1{
     
     font-size: auto;;
-    margin-left:220px;
+    margin-left:200px;
     padding:10px 15px;
     background-color: #d41acb;
     border-radius: 20px;
@@ -109,15 +110,53 @@ font-size: 45px;
     background-color: #20c3e0;
     border-radius: 20px;
 }
+.main-all{
+    display:flex;
+    margin-left:200px;
+    gap:2px;
+}
+.main .videos{
+    color:#d41acb;
+}
 .main h2{
     text-align:center;
 }
 .main p{
     text-align:center;
 }
-
-
-.photos{
+.image{
+    position:relative;
+    width:400px;
+}
+.image--img{
+    display:block;
+    width:100%;
+}
+.image--title img{
+    width:50px;
+}
+.image--overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    color:#FFF;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    opacity:0;
+    transition:opacity 0.2s;
+}
+.image--overlay--blur{
+    
+    backdrop-filter: blur(5px);
+}
+.image--overlay:hover{
+    opacity:1;
+}
+/*.photos{
     display:flex;
     margin-bottom:30px;
     margin-left:230px;
@@ -132,7 +171,7 @@ font-size: 45px;
 }
 .div3{
     margin-right:5px;
-}
+}*/
 .position{
     margin-left:150px;
     
@@ -154,14 +193,16 @@ font-size: 45px;
     justify-content:center ;
 }
 .iconic{
-     margin-top:170px; 
+    height:300px;
+     margin-top:300px;
      margin-left:380px;
 }
 .icon1{
     margin-bottom:20px;
+    margin-left: 50px;
 }
 .icon2{
-    margin-left:80px;
+    margin-left:120px;
 }
 .bttn{
     background-color:white;
@@ -186,6 +227,9 @@ font-size: 45px;
 .footer .gaming{
    font-size:30px; 
 }
+.footer .gaming span{
+    color:#F948B2;
+}
 
 footer .unorder-list2{
     display:flex;
@@ -194,7 +238,7 @@ footer .unorder-list2{
     padding-left:750px;
 }
 .list-1{
-    margin-right:15px;
+    margin-right:20px;
     font-size: 70px;
 }
 .list-2{
@@ -212,4 +256,17 @@ footer .unorder-list2{
 .list-5{
     margin-left:20px;
     font-size: 70px;
+}
+.tab span{
+    margin-right:10px;
+    color:white;
+}
+.text span{
+    color:white;
+    margin-right:7px;
+    font-size:12px;
+}
+.end p{
+    font-size:small;
+    color:white;
 }
